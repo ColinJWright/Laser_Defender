@@ -296,7 +296,7 @@ GameObject:
   - component: {fileID: 756394412}
   - component: {fileID: 756394411}
   m_Layer: 0
-  m_Name: Space-Background-Tiled
+  m_Name: Space Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -543,7 +543,7 @@ GameObject:
   - component: {fileID: 1559554124}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -625,3 +625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
+  padding: 1
+  laserPrefab: {fileID: 2805364623979893935, guid: f2505c4b1043f8140b6317318ae58a22,
+    type: 3}
+  projectileSpeed: 20
