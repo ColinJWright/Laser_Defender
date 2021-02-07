@@ -130,6 +130,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -1419901788873350787, guid: b53a6081230fa204cad7a7e9c28e676c,
         type: 3}
+      propertyPath: moveSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -1419901788873350787, guid: b53a6081230fa204cad7a7e9c28e676c,
+        type: 3}
       propertyPath: waypoints.Array.size
       value: 3
       objectReference: {fileID: 0}
