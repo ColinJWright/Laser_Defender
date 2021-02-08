@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1963211346400978695}
   - component: {fileID: 3463243198622466426}
   - component: {fileID: -1872025691164967319}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BigDog Laser
   m_TagString: Untagged
   m_Icon: {fileID: 0}

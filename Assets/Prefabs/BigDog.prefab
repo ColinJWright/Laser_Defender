@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5376047245476987485}
   - component: {fileID: 6572942801077767388}
   - component: {fileID: 6380870341014770000}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: BigDog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
