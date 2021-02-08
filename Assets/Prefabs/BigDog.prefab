@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 538871359596075527}
   - component: {fileID: 5376047245476987485}
   - component: {fileID: 6572942801077767388}
-  - component: {fileID: -303781923433787393}
+  - component: {fileID: 6380870341014770000}
   m_Layer: 0
   m_Name: BigDog
   m_TagString: Untagged
@@ -109,14 +109,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1000
-  shotCounter: 0
+  shotCounter: 5
   minTimeBetweenShots: 0.1
   maxTimeBetweenShots: 1
   enemyLaserPrefab: {fileID: 6037199793258895296, guid: 49a2af4352f5445449a291bb1ed71a3e,
     type: 3}
   projectileSpeed: 20
---- !u!58 &-303781923433787393
-CircleCollider2D:
+--- !u!60 &6380870341014770000
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -128,6 +128,35 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.033574164}
-  serializedVersion: 2
-  m_Radius: 0.4538092
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.2, y: 0.97}
+    newSize: {x: 1.2, y: 0.97}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.5829882, y: 0.055}
+      - {x: 0.6085058, y: 0.1509766}
+      - {x: 0.6026823, y: 0.1794823}
+      - {x: 0.39252934, y: 0.18695307}
+      - {x: 0.22149415, y: 0.37798822}
+      - {x: 0.04582357, y: 0.4821647}
+      - {x: -0.05268234, y: 0.47932932}
+      - {x: -0.16, y: 0.42499998}
+      - {x: -0.22, y: 0.385}
+      - {x: -0.39432943, y: 0.19082363}
+      - {x: -0.59999996, y: 0.18515296}
+      - {x: -0.5943294, y: 0.06335285}
+      - {x: -0.5006119, y: -0.083352976}
+      - {x: -0.2561295, y: -0.4821647}
+      - {x: -0.07194418, y: -0.4822421}
+      - {x: -0.0753378, y: -0.37468934}
+      - {x: 0.08983454, y: -0.37442374}
+      - {x: 0.08488384, y: -0.47880363}
+      - {x: 0.26061198, y: -0.4821647}
+      - {x: 0.36731765, y: -0.3391766}

@@ -170,7 +170,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &660093131
 PrefabInstance:
@@ -310,6 +310,128 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c57ff36fcff0d042bff881dc36d79d6, type: 3}
+--- !u!1 &947747568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 947747571}
+  - component: {fileID: 947747570}
+  - component: {fileID: 947747569}
+  m_Layer: 0
+  m_Name: Shredder Bottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &947747569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947747568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a580f241c49bc474ab026f40cbe7c46c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &947747570
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947747568}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.11181259, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.880058, y: 1}
+  m_EdgeRadius: 0
+--- !u!4 &947747571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947747568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -12.09, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &969752032 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2160913482295511137, guid: 0c57ff36fcff0d042bff881dc36d79d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 918198719}
+  m_PrefabAsset: {fileID: 0}
+--- !u!60 &969752033
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969752032}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.99, y: 0.75}
+    newSize: {x: 0.99, y: 0.75}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.49188277, y: 0.06577444}
+      - {x: 0.43550307, y: 0.06572533}
+      - {x: 0.40062866, y: -0.0022096634}
+      - {x: 0.36032245, y: -0.022550106}
+      - {x: 0.23447722, y: 0.048891522}
+      - {x: 0.11564845, y: 0.1165465}
+      - {x: 0.09447649, y: 0.375}
+      - {x: -0.092531204, y: 0.37188292}
+      - {x: -0.12629685, y: 0.12811708}
+      - {x: -0.22673537, y: 0.06682634}
+      - {x: -0.35851407, y: -0.009810984}
+      - {x: -0.4856486, y: 0.06694576}
+      - {x: -0.47006288, y: -0.25123417}
+      - {x: -0.40941426, y: -0.22577396}
+      - {x: -0.145, y: -0.27317992}
+      - {x: -0.07318006, y: -0.38123417}
+      - {x: 0.07382869, y: -0.375}
+      - {x: 0.13640994, y: -0.28622532}
+      - {x: 0.40462255, y: -0.21953979}
+      - {x: 0.42382866, y: -0.24941409}
+      - {x: 0.46382856, y: -0.24564826}
 --- !u!1 &1205715535
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,7 +444,7 @@ GameObject:
   - component: {fileID: 1205715537}
   - component: {fileID: 1205715536}
   m_Layer: 0
-  m_Name: Shredder
+  m_Name: Shredder Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -353,7 +475,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.025050402, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -364,7 +486,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12, y: 1}
+  m_Size: {x: 14.855898, y: 1}
   m_EdgeRadius: 0
 --- !u!4 &1205715538
 Transform:
@@ -374,7 +496,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205715535}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 11, z: 0}
+  m_LocalPosition: {x: 0, y: 13.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -644,7 +766,7 @@ PrefabInstance:
     - target: {fileID: 2443232353676428098, guid: 77761457799318d49a11f6331225e030,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2443232353676428098, guid: 77761457799318d49a11f6331225e030,
         type: 3}
@@ -713,7 +835,7 @@ PrefabInstance:
     - target: {fileID: 678664742911133704, guid: 97474d4484324704f953018827d24390,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 678664742911133704, guid: 97474d4484324704f953018827d24390,
         type: 3}
@@ -787,7 +909,7 @@ PrefabInstance:
     - target: {fileID: 7329872717963997219, guid: e9b6c009c044bc840b91b881b991aafd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7329872717963997219, guid: e9b6c009c044bc840b91b881b991aafd,
         type: 3}
