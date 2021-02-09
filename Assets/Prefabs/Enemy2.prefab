@@ -118,6 +118,10 @@ MonoBehaviour:
   explosionParticlesPrefab: {fileID: 2754812049324508553, guid: 05b47a5afaabdf747a939937266c34f7,
     type: 3}
   durationOfExplosion: 1
+  enemyDeathSound: {fileID: 8300000, guid: 14a6239fa55da53449a0b344c4785956, type: 3}
+  enemyDeathSoundVolume: 0.75
+  enemyShootSound: {fileID: 8300000, guid: 5b3ea064767d1de47aabac590440f480, type: 3}
+  enemyShootSoundVolume: 0.25
 --- !u!60 &2385402471001981393
 PolygonCollider2D:
   m_ObjectHideFlags: 0
