@@ -102,6 +102,9 @@ MonoBehaviour:
   playerDeathSoundVolume: 0.75
   playerShootSound: {fileID: 8300000, guid: 24f0a75afb498e645a9295bb7e08504e, type: 3}
   playerShootSoundVolume: 0.1
+  explosionParticlesPrefab: {fileID: 2754812049324508553, guid: 05b47a5afaabdf747a939937266c34f7,
+    type: 3}
+  durationOfExplosion: 2
   laserPrefab: {fileID: 2805364623979893935, guid: f2505c4b1043f8140b6317318ae58a22,
     type: 3}
   projectileSpeed: 25
