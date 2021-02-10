@@ -671,7 +671,7 @@ PrefabInstance:
     - target: {fileID: 946610166004665927, guid: a6658cfed1a9ef14d9befbb9f8957dac,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.1
+      value: 15.06
       objectReference: {fileID: 0}
     - target: {fileID: 946610166004665927, guid: a6658cfed1a9ef14d9befbb9f8957dac,
         type: 3}
@@ -859,7 +859,7 @@ PrefabInstance:
     - target: {fileID: 2924882886996780423, guid: 468f862cc7b6abc45b5356113401eeef,
         type: 3}
       propertyPath: startingWave
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 468f862cc7b6abc45b5356113401eeef, type: 3}
@@ -1081,16 +1081,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Path (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7201995239609836630, guid: e9b6c009c044bc840b91b881b991aafd,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.003
-      objectReference: {fileID: 0}
-    - target: {fileID: 7201995239609836630, guid: e9b6c009c044bc840b91b881b991aafd,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 11.18
       objectReference: {fileID: 0}
     - target: {fileID: 7329872717963997219, guid: e9b6c009c044bc840b91b881b991aafd,
         type: 3}
