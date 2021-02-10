@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1963211346400978695}
   - component: {fileID: 3463243198622466426}
   - component: {fileID: -1872025691164967319}
+  - component: {fileID: -5900788627280420455}
   m_Layer: 11
   m_Name: BigDog Laser
   m_TagString: Untagged
@@ -134,3 +135,16 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.26, y: 0.74}
   m_Direction: 0
+--- !u!114 &-5900788627280420455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6037199793258895296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e86d711b058cc646a72cced6b5f15cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 100
