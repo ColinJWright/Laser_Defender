@@ -66,6 +66,10 @@ public class Player : MonoBehaviour
         FindObjectOfType<Level>().LoadGameOver();
     }
 
+    public int GetHealth()
+    {
+        return health;
+    }
     private void Fire()
     {
         if (Input.GetButtonDown("Fire1"))
