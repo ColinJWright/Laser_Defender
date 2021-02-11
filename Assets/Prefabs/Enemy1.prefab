@@ -111,19 +111,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  scoreValue: 50
   shotCounter: 1
   minTimeBetweenShots: 0.2
   maxTimeBetweenShots: 1.5
   enemyLaserPrefab: {fileID: 7397710821350651531, guid: 5d112956300de99469c422a347206348,
     type: 3}
   projectileSpeed: 10
+  enemyShootSound: {fileID: 8300000, guid: 5b3ea064767d1de47aabac590440f480, type: 3}
+  enemyShootSoundVolume: 0.25
   explosionParticlesPrefab: {fileID: 2754812049324508553, guid: 05b47a5afaabdf747a939937266c34f7,
     type: 3}
   durationOfExplosion: 1
   enemyDeathSound: {fileID: 8300000, guid: 14a6239fa55da53449a0b344c4785956, type: 3}
   enemyDeathSoundVolume: 0.75
-  enemyShootSound: {fileID: 8300000, guid: 5b3ea064767d1de47aabac590440f480, type: 3}
-  enemyShootSoundVolume: 0.25
 --- !u!60 &898779466361646844
 PolygonCollider2D:
   m_ObjectHideFlags: 0
