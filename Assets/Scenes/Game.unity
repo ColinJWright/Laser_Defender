@@ -1075,6 +1075,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2924882886996780423, guid: 468f862cc7b6abc45b5356113401eeef,
         type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924882886996780423, guid: 468f862cc7b6abc45b5356113401eeef,
+        type: 3}
       propertyPath: startingWave
       value: 0
       objectReference: {fileID: 0}
