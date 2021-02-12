@@ -133,16 +133,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 2160913482295511138, guid: 0c57ff36fcff0d042bff881dc36d79d6,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2160913482295511138, guid: 0c57ff36fcff0d042bff881dc36d79d6,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 560882995
-      objectReference: {fileID: 0}
     - target: {fileID: 2160913482295511139, guid: 0c57ff36fcff0d042bff881dc36d79d6,
         type: 3}
       propertyPath: m_RootOrder
@@ -156,7 +146,7 @@ PrefabInstance:
     - target: {fileID: 2160913482295511139, guid: 0c57ff36fcff0d042bff881dc36d79d6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.88
+      value: -4.21
       objectReference: {fileID: 0}
     - target: {fileID: 2160913482295511139, guid: 0c57ff36fcff0d042bff881dc36d79d6,
         type: 3}
