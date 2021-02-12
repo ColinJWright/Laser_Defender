@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     [Header("Player")]
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float padding = 1f;
-    [SerializeField] int health = 200;
+    [SerializeField] int health = 100;
     [SerializeField] AudioClip playerDeathSound;
     [SerializeField] [Range(0, 1)] float playerDeathSoundVolume = 0.75f;
     [SerializeField] AudioClip playerShootSound;

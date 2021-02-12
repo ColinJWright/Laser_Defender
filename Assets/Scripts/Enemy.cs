@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [Header("Enemy Stats")]
-    [SerializeField] float health = 100f;
+    [SerializeField] float health = 10f;
     [SerializeField] int scoreValue = 150;
 
     [Header("Enemy Shooting")]
