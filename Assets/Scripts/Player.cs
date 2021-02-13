@@ -7,7 +7,8 @@ public class Player : MonoBehaviour
     [Header("Player")]
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float padding = 1f;
-    [SerializeField] int health = 100;
+    [SerializeField] int maxHealth = 100;
+    public int currentHealth;
     [SerializeField] AudioClip playerDeathSound;
     [SerializeField] [Range(0, 1)] float playerDeathSoundVolume = 0.75f;
     [SerializeField] AudioClip playerShootSound;
@@ -31,6 +32,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         SetUpMoveBoundaries();
+        currentHealth = maxHealth;
     }
 
     // Update is called once per frame
@@ -49,11 +51,11 @@ public class Player : MonoBehaviour
 
     private void ProcessHit(DamageDealer damageDealer)
     {
-        health -= damageDealer.GetDamage();
+        currentHealth -= damageDealer.GetDamage();
         damageDealer.Hit();
-        if (health <= 0)
+        if (currentHealth <= 0)
         {
-            health = 0;
+            currentHealth = 0;
             Die();
         }
     }
@@ -69,7 +71,7 @@ public class Player : MonoBehaviour
 
     public int GetHealth()
     {
-        return health;
+        return currentHealth;
     }
     private void Fire()
     {
