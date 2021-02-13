@@ -6,9 +6,15 @@ public class Player : MonoBehaviour
 {
     [Header("Player")]
     [SerializeField] float moveSpeed = 10f;
-    [SerializeField] float padding = 1f;
     [SerializeField] int maxHealth = 100;
     public int currentHealth;
+
+    [Header("Screen Padding")]
+    [SerializeField] float xPadding = 0.5f;
+    [SerializeField] float yTopPadding = 5f;
+    [SerializeField] float yBottomPadding = 2f;
+
+    [Header("SFX and VFX")]
     [SerializeField] AudioClip playerDeathSound;
     [SerializeField] [Range(0, 1)] float playerDeathSoundVolume = 0.75f;
     [SerializeField] AudioClip playerShootSound;
@@ -108,9 +114,9 @@ public class Player : MonoBehaviour
     private void SetUpMoveBoundaries()
     {
         Camera gameCamera = Camera.main;
-        xMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).x + padding;
-        xMax = gameCamera.ViewportToWorldPoint(new Vector3(1, 0, 0)).x - padding;
-        yMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).y + padding;
-        yMax = gameCamera.ViewportToWorldPoint(new Vector3(0, 1, 0)).y - padding;
+        xMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).x + xPadding;
+        xMax = gameCamera.ViewportToWorldPoint(new Vector3(1, 0, 0)).x - xPadding;
+        yMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).y + yBottomPadding;
+        yMax = gameCamera.ViewportToWorldPoint(new Vector3(0, 1, 0)).y - yTopPadding;
     }
 }
