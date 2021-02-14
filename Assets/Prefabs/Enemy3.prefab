@@ -112,8 +112,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 300
   scoreValue: 250
-  minTimeBetweenShots: 0.5
-  maxTimeBetweenShots: 1
+  minTimeBetweenShots: 0.75
+  maxTimeBetweenShots: 1.5
   enemyLaserPrefab: {fileID: 7397710821350651531, guid: d9fbe01cafe2ee541bc3484117a31712,
     type: 3}
   projectileSpeed: 4

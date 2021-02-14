@@ -97,10 +97,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
-  padding: 1
-  health: 100
-  playerDeathSound: {fileID: 8300000, guid: 42ecbc758addd2541b42d7e5e7b08ba5, type: 3}
-  playerDeathSoundVolume: 0.75
+  maxHealth: 100
+  currentHealth: 0
+  xPadding: 0.5
+  yTopPadding: 5
+  yBottomPadding: 2
+  playerDeathSound: {fileID: 8300000, guid: 326165415b84af147a1e802c11c3e7fb, type: 3}
+  playerDeathSoundVolume: 0.9
   playerShootSound: {fileID: 8300000, guid: 24f0a75afb498e645a9295bb7e08504e, type: 3}
   playerShootSoundVolume: 0.1
   explosionParticlesPrefab: {fileID: 2754812049324508553, guid: 05b47a5afaabdf747a939937266c34f7,
