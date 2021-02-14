@@ -112,11 +112,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 2000
   scoreValue: 500
-  minTimeBetweenShots: 0.25
-  maxTimeBetweenShots: 0.75
+  minTimeBetweenShots: 1
+  maxTimeBetweenShots: 2
   enemyLaserPrefab: {fileID: 6037199793258895296, guid: 49a2af4352f5445449a291bb1ed71a3e,
     type: 3}
-  projectileSpeed: 25
+  projectileSpeed: 20
   enemyShootSound: {fileID: 8300000, guid: 5b3ea064767d1de47aabac590440f480, type: 3}
   enemyShootSoundVolume: 0.8
   explosionParticlesPrefab: {fileID: 2754812049324508553, guid: 05b47a5afaabdf747a939937266c34f7,

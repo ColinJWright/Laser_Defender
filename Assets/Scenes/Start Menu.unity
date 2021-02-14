@@ -518,14 +518,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Protect the world from the big dog and his minions.
+  m_text: 'Protect the world from the big dog and his evil minions.
 
 
-    Resistance in
-    futile.
+    Resistance
+    in futile.
 
 
-    You cannot win.'
+    You cannot win !!!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5986b384df53bcc44b657109e897edf6, type: 2}
   m_sharedMaterial: {fileID: 1450656612998790713, guid: 5986b384df53bcc44b657109e897edf6,

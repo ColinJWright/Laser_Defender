@@ -49,11 +49,11 @@ public class EnemyMultiShoot : MonoBehaviour
     private void Fire()
     {
         GameObject laser = Instantiate(enemyLaserPrefab, transform.position, Quaternion.identity) as GameObject;
-        laser.GetComponent<Rigidbody2D>().velocity = new Vector2(-2, -projectileSpeed);
+        laser.GetComponent<Rigidbody2D>().velocity = new Vector2(-3, -projectileSpeed);
         GameObject laser2 = Instantiate(enemyLaserPrefab, transform.position, Quaternion.identity) as GameObject;
         laser2.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -projectileSpeed);
         GameObject laser3 = Instantiate(enemyLaserPrefab, transform.position, Quaternion.identity) as GameObject;
-        laser3.GetComponent<Rigidbody2D>().velocity = new Vector2(2, -projectileSpeed);
+        laser3.GetComponent<Rigidbody2D>().velocity = new Vector2(3, -projectileSpeed);
         AudioSource.PlayClipAtPoint(enemyShootSound, Camera.main.transform.position, enemyShootSoundVolume);
     }
 
