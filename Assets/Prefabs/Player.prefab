@@ -100,7 +100,7 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 0
   xPadding: 0.5
-  yTopPadding: 5
+  yTopPadding: 17
   yBottomPadding: 2
   playerDeathSound: {fileID: 8300000, guid: 326165415b84af147a1e802c11c3e7fb, type: 3}
   playerDeathSoundVolume: 0.9

@@ -110,8 +110,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbc3fa64a81c8fa41b8ad791e5292de6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 2000
-  scoreValue: 500
+  health: 3000
+  scoreValue: 1000
   minTimeBetweenShots: 1
   maxTimeBetweenShots: 2
   enemyLaserPrefab: {fileID: 6037199793258895296, guid: 49a2af4352f5445449a291bb1ed71a3e,
