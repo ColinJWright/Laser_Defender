@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbc3fa64a81c8fa41b8ad791e5292de6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3000
+  health: 4000
   scoreValue: 1000
   minTimeBetweenShots: 1
   maxTimeBetweenShots: 2
@@ -119,6 +119,8 @@ MonoBehaviour:
   projectileSpeed: 20
   enemyShootSound: {fileID: 8300000, guid: 5b3ea064767d1de47aabac590440f480, type: 3}
   enemyShootSoundVolume: 0.8
+  hitParticlesPrefab: {fileID: 2754812049324508553, guid: 59131f43567379b49b7f72c60ac9ca24,
+    type: 3}
   explosionParticlesPrefab: {fileID: 2754812049324508553, guid: 05b47a5afaabdf747a939937266c34f7,
     type: 3}
   durationOfExplosion: 2

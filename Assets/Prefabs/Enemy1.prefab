@@ -119,6 +119,8 @@ MonoBehaviour:
   projectileSpeed: 10
   enemyShootSound: {fileID: 8300000, guid: 5b3ea064767d1de47aabac590440f480, type: 3}
   enemyShootSoundVolume: 0.25
+  hitParticlesPrefab: {fileID: 2754812049324508553, guid: 59131f43567379b49b7f72c60ac9ca24,
+    type: 3}
   explosionParticlesPrefab: {fileID: 2754812049324508553, guid: 05b47a5afaabdf747a939937266c34f7,
     type: 3}
   durationOfExplosion: 1

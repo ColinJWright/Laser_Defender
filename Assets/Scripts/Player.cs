@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
     [SerializeField] [Range(0, 1)] float playerShootSoundVolume = 0.1f;
     [SerializeField] GameObject explosionParticlesPrefab;
     [SerializeField] float durationOfExplosion = 2f;
+    [SerializeField] GameObject hitParticlesPrefab;
 
     [Header("Player Firing")]
     [SerializeField] GameObject laserPrefab;
@@ -59,6 +60,8 @@ public class Player : MonoBehaviour
     {
         currentHealth -= damageDealer.GetDamage();
         damageDealer.Hit();
+        GameObject hitParticles = Instantiate(hitParticlesPrefab, transform.position, transform.rotation);
+        Destroy(hitParticles, 0.1f);
         if (currentHealth <= 0)
         {
             currentHealth = 0;

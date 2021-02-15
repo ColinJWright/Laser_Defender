@@ -17,7 +17,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] AudioClip enemyShootSound;
     [SerializeField] [Range(0, 1)] float enemyShootSoundVolume = 0.25f;
 
-    [Header("Enemy Death")]
+    [Header("Enemy Hit")]
+    [SerializeField] GameObject hitParticlesPrefab;
     [SerializeField] GameObject explosionParticlesPrefab;
     [SerializeField] float durationOfExplosion = 1f;
     [SerializeField] AudioClip enemyDeathSound;
@@ -64,6 +65,8 @@ public class Enemy : MonoBehaviour
     {
         health -= damageDealer.GetDamage();
         damageDealer.Hit();
+        GameObject hitParticles = Instantiate(hitParticlesPrefab, transform.position, transform.rotation);
+        Destroy(hitParticles, 0.1f);
         if (health <= 0)
         {
             Die();
