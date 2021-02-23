@@ -113,10 +113,10 @@ MonoBehaviour:
   health: 3
   scoreValue: 5000
   minTimeBetweenShots: 0.5
-  maxTimeBetweenShots: 1.25
+  maxTimeBetweenShots: 1
   enemyLaserPrefab: {fileID: 7397710821350651531, guid: 5d112956300de99469c422a347206348,
     type: 3}
-  projectileSpeed: 10
+  projectileSpeed: 15
   enemyShootSound: {fileID: 8300000, guid: 5b3ea064767d1de47aabac590440f480, type: 3}
   enemyShootSoundVolume: 0.25
   hitParticlesPrefab: {fileID: 2754812049324508553, guid: 59131f43567379b49b7f72c60ac9ca24,
