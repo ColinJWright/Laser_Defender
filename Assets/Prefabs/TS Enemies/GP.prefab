@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 2
-  scoreValue: 250
+  scoreValue: 750
   minTimeBetweenShots: 0.75
   maxTimeBetweenShots: 1.5
   enemyLaserPrefab: {fileID: 7397710821350651531, guid: d9fbe01cafe2ee541bc3484117a31712,
